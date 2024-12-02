@@ -250,27 +250,27 @@ html {
 @media only screen and (max-width: 768px) {
     .team-scroll {
         padding: 10px;
-        gap: 10px; /* Reduce espacio entre elementos */
-        scroll-behavior: auto;
+        gap: 10px;
+        scroll-behavior: inherit;
     }
 
     .team-member {
-        min-width: 250px; /* Ajustar ancho en móvil */
+        min-width: 250px; 
         max-width: 250px;
-        min-height: 300px; /* Ajustar altura */
+        min-height: 300px; 
     }
 
     .team__image {
-        width: 100px; /* Reduce tamaño de las imágenes */
+        width: 100px; 
         height: 100px;
     }
 
     .team__name {
-        font-size: 20px; /* Reduce tamaño de texto */
+        font-size: 20px; 
     }
 
     .team__position, .team__position1 {
-        font-size: 18px; /* Reducir fuente */
+        font-size: 18px; 
         margin-top: 10px;
     }
 }
