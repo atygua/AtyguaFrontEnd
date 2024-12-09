@@ -1075,7 +1075,10 @@ html {
 .footer__column-text {
     color: #ffffff !important;
 }
-
+.footer__column-text2 {
+    color: #ffffff !important;
+    
+}
 .footer__column-row__buttonlist__image--info {
     height: 24px; 
     width: 24px;  
@@ -1107,7 +1110,9 @@ html {
     }
 
     .footer__column-text {
-        margin-top: 16px;        
+        font-size: 12px;        
+    }
+    .footer__column-text2 {
         font-size: 12px;        
     }
 }
